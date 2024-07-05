@@ -1,0 +1,65 @@
+const print = (a) =>{
+    console.log(a);
+}
+ course={
+    id: 1,
+    name: 'Full stack development',
+    hours: 30,
+    instructor: 'Subh',
+    email: 's@s.com',
+    contents:[
+    {
+        topic: 'Introduction to JS',
+        hours: 2
+    },
+    {
+        topic: 'Introduction to JS',
+        hours: 2
+    },
+    {
+        topic: 'Introduction to ReactS',
+        hours: 2
+    },
+    {
+        topic: 'Introduction to Styling',
+        hours: 2
+    },
+ ],
+    materias :[
+    {
+        website: 'w3schools',
+        topic:[
+            {
+                name: 'Js objects'
+            },
+            {
+                name: 'Js Functions'
+            },
+            {
+                name: 'JS'
+            }
+        ]
+    },
+    {
+        website: 'React Documentation',
+        topic:[
+            {
+                name: 'React State'
+            },
+            {
+                name: 'Common Component'
+            }
+        ]
+    }
+]
+}
+ 
+/*
+course.map((item)=> {
+    console.log(item.course + "" + item.hours);
+    item.hours = item.hours * 1.5;
+    console.log(item.name + "" + item.hours);
+})
+*/
+const value = Object.keys(course);
+console.log(value);
